@@ -21,7 +21,7 @@ docker run -d --name despachos-local \
   -e DB_PORT=3306 \
   -e DB_NAME=innovatech \
   -e DB_USERNAME=admin \
-  -e DB_PASSWORD=admin123 \
+  -e DB_PASSWORD=<tu_contraseña> \
   -p 8081:8081 \
   innovatech-despachos:latest
 ```
